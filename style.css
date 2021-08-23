@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+#BGloader img{
+    margin: auto;
+    width: 100%;
+}
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+h1{  
+    margin-top: 20px !important;
+    margin-bottom: 25px;
+    background-color: rgb(8, 44, 143);
+    color: white;
+    border-radius: 5px;
+    
+}
+.fixTableHead {
+    overflow-y: auto;
+    height: 110px;
+  }
+.fixTableHead thead th {
+    position: sticky;
+    top: 0;
+}
+#covidTable{
+    margin-bottom: 20px !important;
+}
+
+.dataTables_length{
+    font-weight: 500;   
+}
+.dataTables_length select{
+    margin-top: 10px;
+    font-weight: 500;
+    color: white !important;  
+    background-color: black !important; 
+    
+}
+.dataTables_info{ 
+    font-weight: 500;
+}
+.paginate_button {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.dataTables_filter{
+    font-weight: 500;
+}
+.dataTables_filter input{
+    background-color: white !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
